@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Belatrix-android-developer-part1</string>
+
+    <string name="next_step">Next Feature</string>
+    <string name="month_input_hint">Enter a valid month number</string>
+    <string name="no_month">No month for that index</string>
+
+    <string name="no_operation">No opperation defined</string>
+    <string name="operation_exception">Impossible</string>
+    <string name="number_hint">Number</string>
+    <string name="operator_hint">Operator</string>
+    <string name="calculate">Calculate</string>
+    <string name="result_true">True</string>
+    <string name="result_false">False</string>
+    <string name="lines">Line %1$d\n</string>
+    <string name="show_lines">Show Lines</string>
+</resources>
