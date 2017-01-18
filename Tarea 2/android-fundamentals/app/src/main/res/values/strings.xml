@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">android-fundamentals</string>
+
+    <string name="first_text">Luis</string>
+    <string name="second_text">Alonso</string>
+    <string name="third_text">Paulino Flores</string>
+    <string name="next_c">Next C</string>
+    <string name="next_d">Next D</string>
+    <string name="next_e">Next E</string>
+    <string name="activity_c">Activity C</string>
+    <string name="activity_d">Activity D</string>
+    <string name="activity_e">Activity E</string>
+</resources>
