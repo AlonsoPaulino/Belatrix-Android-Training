@@ -16,6 +16,7 @@ import com.lpaulino.memetrix.data.local.PreferencesHelper;
 import com.lpaulino.memetrix.domain.User;
 import com.lpaulino.memetrix.presentation.about.AboutUsActivity;
 import com.lpaulino.memetrix.presentation.common.MemetrixFragment;
+import com.lpaulino.memetrix.presentation.memes.MemesActivity;
 
 import butterknife.BindView;
 import butterknife.OnClick;
@@ -51,7 +52,7 @@ public class SignInFragment extends MemetrixFragment implements TextWatcher{
     public void onSignInButtonClicked(Button signInButton) {
         User user = new User(mEmailEditText.getText().toString(), mPasswordEditText.getText().toString());
         if (user.isAuthorized()) {
-            startActivity(new Intent(mContext, AboutUsActivity.class));
+            startActivity(new Intent(mContext, MemesActivity.class));
             //TODO: Server Authentication
             PreferencesHelper.setUserLoggedIn(user.getUsername());
             getActivity().finish();
