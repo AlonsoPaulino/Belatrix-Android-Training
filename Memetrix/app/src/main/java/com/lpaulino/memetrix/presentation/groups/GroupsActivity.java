@@ -32,13 +32,13 @@ public class GroupsActivity extends NavigationActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        GroupsFragment memesFragment = (GroupsFragment) findFragmentById(R.id.main_content);
+        GroupsFragment groupsFragment = (GroupsFragment) findFragmentById(R.id.main_content);
 
-        if (memesFragment == null) {
-            memesFragment = GroupsFragment.newInstance();
+        if (groupsFragment == null) {
+            groupsFragment = GroupsFragment.newInstance();
         }
 
-        replaceFragment(R.id.main_content, memesFragment);
+        replaceFragment(R.id.main_content, groupsFragment);
 
         mAddGroupFloatingActionButton.setOnClickListener(v -> {
             //TODO: Add meme

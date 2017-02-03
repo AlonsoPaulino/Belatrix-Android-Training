@@ -6,7 +6,7 @@ import android.content.Context;
  * @author Luis Alonso Paulino Flores on 3/02/17.
  */
 
-public class MemetrixNavigationFragment extends MemetrixFragment {
+public abstract class MemetrixNavigationFragment extends MemetrixFragment {
 
     protected MemetrixNavigationListener mNavigationListener;
 
