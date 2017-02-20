@@ -1,5 +1,3 @@
-# Belatrix-android-part-1
+# Belatrix Android Training
 
-Credentials for Memetrix Project:
-Username: meme@belatrixsf.com
-Password: fis
+Tasks developed as part of Belatrix Android Training Course: https://github.com/BelatrixTraining
